@@ -1,0 +1,16 @@
+{
+    "dir": "ltr",
+    "lang": "en",
+    "name": "Calm - The #1 App for Meditation and Sleep",
+    "short_name": "Calm - The #1 A",
+    "scope": "/",
+    "display": "browser",
+    "start_url": "https://www.calm.com/",
+    "background_color": "transparent",
+    "theme_color": "transparent",
+    "description": "Relax with Calm, a simple mindfulness meditation app that brings clarity and peace of mind into your life",
+    "orientation": "any",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": []
+}

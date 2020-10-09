@@ -1,0 +1,10 @@
+{
+    "name": "Uber Eats",
+    "short_name": "Uber Eats",
+    "description": "Uber Eats",
+    "start_url": "https://www.ubereats.com/",
+    "scope": "/any/",
+    "display": "fullscreen",
+    "orientation": "portrait",
+    "lang": "English"
+}
