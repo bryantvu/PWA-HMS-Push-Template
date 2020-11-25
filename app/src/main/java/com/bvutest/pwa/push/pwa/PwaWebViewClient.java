@@ -28,13 +28,14 @@ class PwaWebViewClient extends WebViewClient {
     @SuppressWarnings("deprecation")
     @Override
     public boolean shouldOverrideUrlLoading(WebView view, String url) {
-        if (this.scoped(url)) {
-            return false;
-        } else {
-            Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
-            view.getContext().startActivity(i);
-            return true;
-        }
+//        if (this.scoped(url)) {
+//            return false;
+//        } else {
+//            Intent i = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+//            view.getContext().startActivity(i);
+//            return true;
+//        }
+        return false;
     }
 
     private boolean scoped(String url) {

@@ -8,6 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.util.Log;
+import android.view.KeyEvent;
 import android.webkit.*;
 
 import com.huawei.agconnect.config.AGConnectServicesConfig;
@@ -28,6 +29,7 @@ import java.util.Arrays;
 public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = "MainActivity";
+    private WebView myWebView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,7 +40,8 @@ public class MainActivity extends AppCompatActivity {
         setOrientation(this);
         setName(this);
         setContentView(R.layout.activity_main);
-        setWebView((WebView) this.findViewById(R.id.webView));
+        myWebView = (WebView) this.findViewById(R.id.webView);
+        setWebView(myWebView);
         //getAAID();
         getToken();
         addTopic();
@@ -208,5 +211,14 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    @Override
+    public boolean onKeyDown(int keyCode, KeyEvent event)
+    {
+        if ((keyCode == KeyEvent.KEYCODE_BACK) && myWebView.canGoBack()) {
+            myWebView.goBack();
+            return true;
+        }
+        return super.onKeyDown(keyCode, event);
+    }
 
 }

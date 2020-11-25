@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\Downloads\\PWA Builder\\CLI\\Uber_Eats - Copy\\android\\source\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ms\\values-ms.xml",
+            "outputFile": "F:\\Downloads\\PWA Builder\\CLI\\Uber_Eats - Push\\android\\source\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ms\\values-ms.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\80da4a806b891f8d0fa870a98fe72fea\\push-5.0.0.300\\res\\values-ms\\values-ms.xml",

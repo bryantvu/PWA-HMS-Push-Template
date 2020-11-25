@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\Downloads\\PWA Builder\\CLI\\Uber_Eats - Copy\\android\\source\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "F:\\Downloads\\PWA Builder\\CLI\\Uber_Eats - Push\\android\\source\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Administrator\\.gradle\\caches\\transforms-2\\files-2.1\\7e719d316721e6de2e466e9dbeb60d71\\support-compat-28.0.0\\res\\values\\values.xml",
@@ -37,23 +37,6 @@
                         "startOffsets": "26036,26131",
                         "endColumns": "94,104",
                         "endOffsets": "26126,26231"
-                    }
-                },
-                {
-                    "source": "F:\\Downloads\\PWA Builder\\CLI\\Uber_Eats - Copy\\android\\source\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "17",
-                        "endColumns": "46",
-                        "endOffsets": "59"
-                    },
-                    "to": {
-                        "startLines": "372",
-                        "startColumns": "4",
-                        "startOffsets": "25838",
-                        "endColumns": "46",
-                        "endOffsets": "25880"
                     }
                 },
                 {
@@ -95,20 +78,20 @@
                     }
                 },
                 {
-                    "source": "F:\\Downloads\\PWA Builder\\CLI\\Uber_Eats - Copy\\android\\source\\app\\build\\generated\\res\\agc\\debug\\values\\values.xml",
+                    "source": "F:\\Downloads\\PWA Builder\\CLI\\Uber_Eats - Push\\android\\source\\app\\src\\main\\res\\values\\colors.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,336,649,800,985,1202,1515,1700,1885,2102,2319,2536,2753,2938,3283,3500,3651,3836,4053,4204",
-                        "endColumns": "280,312,150,184,216,312,184,184,216,216,216,216,184,344,216,150,184,216,150,150",
-                        "endOffsets": "331,644,795,980,1197,1510,1695,1880,2097,2314,2531,2748,2933,3278,3495,3646,3831,4048,4199,4350"
+                        "startLines": "4,2,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "157,57,105",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "198,99,151"
                     },
                     "to": {
-                        "startLines": "352,353,354,355,356,357,358,359,360,361,362,363,364,365,366,367,368,369,370,371",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "21538,21819,22132,22283,22468,22685,22998,23183,23368,23585,23802,24019,24236,24421,24766,24983,25134,25319,25536,25687",
-                        "endColumns": "280,312,150,184,216,312,184,184,216,216,216,216,184,344,216,150,184,216,150,150",
-                        "endOffsets": "21814,22127,22278,22463,22680,22993,23178,23363,23580,23797,24014,24231,24416,24761,24978,25129,25314,25531,25682,25833"
+                        "startLines": "117,118,119",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "6155,6201,6248",
+                        "endColumns": "45,46,50",
+                        "endOffsets": "6196,6243,6294"
                     }
                 },
                 {
@@ -131,7 +114,24 @@
                     }
                 },
                 {
-                    "source": "F:\\Downloads\\PWA Builder\\CLI\\Uber_Eats - Copy\\android\\source\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "F:\\Downloads\\PWA Builder\\CLI\\Uber_Eats - Push\\android\\source\\app\\build\\generated\\res\\agc\\debug\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,336,649,800,985,1202,1515,1700,1885,2102,2319,2536,2753,2938,3283,3500,3651,3836,4053,4204",
+                        "endColumns": "280,312,150,184,216,312,184,184,216,216,216,216,184,344,216,150,184,216,150,150",
+                        "endOffsets": "331,644,795,980,1197,1510,1695,1880,2097,2314,2531,2748,2933,3278,3495,3646,3831,4048,4199,4350"
+                    },
+                    "to": {
+                        "startLines": "352,353,354,355,356,357,358,359,360,361,362,363,364,365,366,367,368,369,370,371",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "21538,21819,22132,22283,22468,22685,22998,23183,23368,23585,23802,24019,24236,24421,24766,24983,25134,25319,25536,25687",
+                        "endColumns": "280,312,150,184,216,312,184,184,216,216,216,216,184,344,216,150,184,216,150,150",
+                        "endOffsets": "21814,22127,22278,22463,22680,22993,23178,23363,23580,23797,24014,24231,24416,24761,24978,25129,25314,25531,25682,25833"
+                    }
+                },
+                {
+                    "source": "F:\\Downloads\\PWA Builder\\CLI\\Uber_Eats - Push\\android\\source\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "3,9,15",
                         "startColumns": "4,4,4",
@@ -147,23 +147,6 @@
                         "endLines": "441,1506,1702",
                         "endColumns": "12,12,12",
                         "endOffsets": "32050,100198,113813"
-                    }
-                },
-                {
-                    "source": "F:\\Downloads\\PWA Builder\\CLI\\Uber_Eats - Copy\\android\\source\\app\\src\\main\\res\\values\\colors.xml",
-                    "from": {
-                        "startLines": "4,2,3",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "157,57,105",
-                        "endColumns": "45,46,50",
-                        "endOffsets": "198,99,151"
-                    },
-                    "to": {
-                        "startLines": "117,118,119",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "6155,6201,6248",
-                        "endColumns": "45,46,50",
-                        "endOffsets": "6196,6243,6294"
                     }
                 },
                 {
@@ -200,6 +183,23 @@
                         "startOffsets": "27827,27894,28006,28776,28872",
                         "endColumns": "66,111,99,95,95",
                         "endOffsets": "27889,28001,28101,28867,28963"
+                    }
+                },
+                {
+                    "source": "F:\\Downloads\\PWA Builder\\CLI\\Uber_Eats - Push\\android\\source\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "17",
+                        "endColumns": "46",
+                        "endOffsets": "59"
+                    },
+                    "to": {
+                        "startLines": "372",
+                        "startColumns": "4",
+                        "startOffsets": "25838",
+                        "endColumns": "46",
+                        "endOffsets": "25880"
                     }
                 },
                 {
