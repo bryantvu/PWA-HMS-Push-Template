@@ -152,22 +152,22 @@ public class MainActivity extends AppCompatActivity {
         return null;
     }
 
-    private void getAAID() {
-        Task<AAIDResult> idResult = HmsInstanceId.getInstance(this).getAAID();
-        idResult.addOnSuccessListener(new OnSuccessListener<AAIDResult>() {
-            @Override
-            public void onSuccess(AAIDResult aaidResult) {
-                String aaId = aaidResult.getId();
-                Log.d(TAG,"getAAID success:" + aaId);
-            }
-        }).addOnFailureListener(new OnFailureListener() {
-            @Override
-            public void onFailure(Exception e) {
-                Log.e(TAG, "getAAID failed:" + e);
-            }
-        });
-
-    }
+//    private void getAAID() {
+//        Task<AAIDResult> idResult = HmsInstanceId.getInstance(this).getAAID();
+//        idResult.addOnSuccessListener(new OnSuccessListener<AAIDResult>() {
+//            @Override
+//            public void onSuccess(AAIDResult aaidResult) {
+//                String aaId = aaidResult.getId();
+//                Log.d(TAG,"getAAID success:" + aaId);
+//            }
+//        }).addOnFailureListener(new OnFailureListener() {
+//            @Override
+//            public void onFailure(Exception e) {
+//                Log.e(TAG, "getAAID failed:" + e);
+//            }
+//        });
+//
+//    }
 
     private void getToken() {
         Log.d(TAG, "getToken:begin");
